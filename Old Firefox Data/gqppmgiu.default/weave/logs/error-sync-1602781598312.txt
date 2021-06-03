@@ -1,0 +1,63 @@
+1602781498510	Sync.Service	INFO	Loading Weave 1.45.0
+1602781498545	Sync.Engine.Clients	DEBUG	Engine initialized
+1602781498546	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1602781498553	Sync.Engine.Bookmarks	DEBUG	Engine initialized
+1602781498556	Sync.Engine.Forms	DEBUG	Engine initialized
+1602781498559	Sync.Engine.History	DEBUG	Engine initialized
+1602781498562	Sync.Engine.Passwords	DEBUG	Engine initialized
+1602781498564	Sync.Engine.Prefs	DEBUG	Engine initialized
+1602781498568	Sync.Engine.Tabs	DEBUG	Engine initialized
+1602781498569	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1602781498574	Sync.Engine.Addons	DEBUG	Engine initialized
+1602781498575	Sync.Service	INFO	Mozilla/5.0 (Windows NT 10.0; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0
+1602781498601	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1602781498601	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1602781498602	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1602781498602	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1602781498602	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1602781498602	Sync.Tracker.History	INFO	Adding Places observer.
+1602781498604	FirefoxAccounts	DEBUG	startVerifiedCheck: false
+1602781499742	browserwindow.syncui	DEBUG	observed: weave:service:ready
+1602781499743	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1602781499744	FirefoxAccounts	DEBUG	startVerifiedCheck: false
+1602781499744	FirefoxAccounts	DEBUG	startVerifiedCheck: false
+1602781499744	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1602781499775	FirefoxAccounts	DEBUG	startVerifiedCheck: false
+1602781499776	FirefoxAccounts	DEBUG	startVerifiedCheck: false
+1602781499776	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1602781499920	Sync.Tracker.Clients	WARN	Changed IDs file clients contains non-object value.
+1602781500065	Sync.Tracker.Bookmarks	WARN	Changed IDs file bookmarks contains non-object value.
+1602781500717	Sync.Tracker.Addons	WARN	Changed IDs file addons contains non-object value.
+1602781505744	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1602781505857	Sync.Service	DEBUG	User-Agent: Firefox/43.0.1 FxSync/1.45.0.20151216175450.
+1602781505857	Sync.Service	INFO	Starting sync at 2020-10-15 22:35:05
+1602781505857	Sync.Service	DEBUG	In sync: should login.
+1602781505857	browserwindow.syncui	DEBUG	observed: weave:service:login:start
+1602781505857	browserwindow.syncui	DEBUG	onActivityStart with numActive: 0
+1602781505858	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1602781505858	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1602781505861	FirefoxAccounts	DEBUG	startVerifiedCheck: false
+1602781505861	FirefoxAccounts	DEBUG	startVerifiedCheck: false
+1602781505861	Sync.BrowserIDManager	INFO	Waiting for user to be verified.
+1602781505862	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1602781505862	FirefoxAccounts	DEBUG	startVerifiedCheck: false
+1602781505863	FirefoxAccounts	DEBUG	startVerifiedCheck: false
+1602781505863	browserwindow.syncui	DEBUG	_loginFailed has sync state=success.login
+1602781508285	Hawk	DEBUG	(Response) /recovery_email/status: code: 401 - Status text: Unauthorized
+1602781508285	Sync.RESTResponse	TRACE	Processing response headers.
+1602781508285	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 42715
+1602781508285	Hawk	DEBUG	Received 401 for /recovery_email/status: retrying
+1602781509981	Hawk	DEBUG	(Response) /recovery_email/status: code: 401 - Status text: Unauthorized
+1602781509981	Sync.RESTResponse	TRACE	Processing response headers.
+1602781509981	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: 43019
+1602781509982	FirefoxAccounts	ERROR	error GETing /recovery_email/status: {"code":401,"errno":110,"error":"Unauthorized","message":"The authentication token has expired","info":"https://github.com/mozilla/fxa/blob/main/packages/fxa-auth-server/docs/api.md#response-format"}
+1602781524738	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1602781537188	Sync.Tracker.Forms	DEBUG	Saving changed IDs to forms
+1602781538682	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1602781546794	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1602781574275	Sync.Tracker.History	DEBUG	Saving changed IDs to history
+1602781598308	browserwindow.syncui	DEBUG	observed: weave:service:login:error
+1602781598308	browserwindow.syncui	DEBUG	onActivityStop with numActive: 1
+1602781598309	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1602781598311	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms.
+1602781598311	Sync.ErrorHandler	ERROR	Sync encountered a login error
